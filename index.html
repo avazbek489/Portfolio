@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://avatars.mds.yandex.net/i?id=ac06ca9bea6a60da69f3767334dab2cb_l-8237885-images-thumbs&n=13') no-repeat center center fixed; 
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+        .portfolio-container {
+            background-color: rgba(255, 248, 225, 0.9); /* Transparently lighten the background */
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            border: 3px solid #d4af37;
+            width: 100%;
+            max-width: 700px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        .portfolio-container h1 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #b8860b;
+            font-family: "Georgia", serif;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        .portfolio-item {
+            margin-bottom: 20px;
+        }
+        .portfolio-item label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 8px;
+            color: #8b7500;
+        }
+        .portfolio-item p {
+            margin: 0;
+            padding: 12px;
+            background-color: #fffbea;
+            border: 1px solid #d4af37;
+            border-radius: 8px;
+            color: #5a4a00;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="portfolio-container">
+        <h1>Men Haqimda</h1>
+        <div class="portfolio-item">
+            <label>Name:</label>
+            <p>Behroʻzbek Azamatov ⚜️</p>
+        </div>
+        <div class="portfolio-item">
+            <label>Email:</label>
+            <p>pubgjonqirolboy@gmail.com</p>
+        </div>
+        <div class="portfolio-item">
+            <label>Short Bio:</label>
+            <p>Phone number: 77-007-89-19 🔰<br>
+                Instagram: <a href="https://www.instagram.com/azamatov_ok/profilecard/?igsh=MWZwbXBoMnJybHJnOA==" target="_blank">azamatov_ok</a><br>
+                Telegram: <a href="https://t.me/only_azamatov" target="_blank">@only_azamatov</a> 🇺🇿</p>
+        </div>
+        <div class="portfolio-item">
+            <label>Skills:</label>
+            <p>Python programming 💎<br>
+               Create Telegram bots 🌐<br>
+               Korean language 📊</p>
+        </div>
+        <div class="portfolio-item">
+            <label>Projects:</label>
+            <p>1. Personal Portfolio Website<br>2. E-commerce Platform<br>3. Blog CMS</p>
+        </div>
+    </div>
+</body>
+</html>
